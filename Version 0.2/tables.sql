@@ -1,9 +1,7 @@
 -- Rakett(er)
 CREATE TABLE rocket (
   rocket_id     SERIAL PRIMARY KEY,
-  rocket_name          TEXT NOT NULL,
-  serial_number TEXT,
-  notes         TEXT
+  rocket_name          TEXT NOT NULL
 );
 
 -- Flyvninger (kobler data til en spesifikk flytur/mission)
